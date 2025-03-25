@@ -1,0 +1,21 @@
+1) mark user who had enough time (first game must be before X day (30 days before end of data))  --> create field  'has_30_days_seniority' 
+1) make visualizations, UMAP, TSNE, PCA
+1) train supervised model for segmentation
+1) SHOW visual results
+1) use segmantation for spenders vs no spenders
+futher studies:
+1) use segmantation for high spenders vs low medium spenders
+
+
+
+Implementation:
+
+1) How does a 'better' matchmaking affect? 
+- it helps the study of users by segmenting
+- it helps as a guide for the matchmaking algorithm
+
+2) Testing
+
+- for testing:
+1) Make sure the data is equivalent to the training, meaning (no data drift)
+1) The model is relevant ( model test scores)
